@@ -1,0 +1,31 @@
+{
+  "name": "garagedoor",
+  "version": "1.0.0",
+  "description": "Garage door opener PoC for Raspberry Pi Zero W",
+  "homepage": "https://github.com/billchurch/GarageDoor",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billchurch/GarageDoor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Bill Church",
+      "email": "wmchurch@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/billchurch/GarageDoor/issues"
+  },
+  "license": "SEE LICENSE IN FILE - LICENSE",
+  "dependencies": {
+    "async": "^2.4.1",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "rpi-gpio": "^0.8.1",
+    "socketio": "^1.0.0"
+  }
+}
